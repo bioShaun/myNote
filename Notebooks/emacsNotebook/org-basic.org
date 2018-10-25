@@ -1,4 +1,5 @@
 #+TITLE: ORG-MODE BASIC
+#+OPTIONS: ^:nil
 
 * Org-mode
 
@@ -8,43 +9,43 @@
 2. tab
 3. 输入表格内容
 
-| Name    |       Phone | money | usage | left |
-|---------+-------------+-------+-------+------|
-| jason   | 13981231213 |     1 |     0 |    1 |
-| alicehh |           - |   123 |    23 |  100 |
-| bbq     |    87636743 |    23 |    12 |   11 |
+| Name  |       Phone | money | usage | left |
+|-------+-------------+-------+-------+------|
+| jason | 13981231213 |     1 |     0 |    1 |
+| alice |           - |   123 |    23 |  100 |
+| bobby |    87636743 |    23 |    12 |   11 |
 #+TBLFM: $5=$3-$4
 
 
 - 自动计算，输入money, usage两列值，在left 输入 "=$3-$4", `C-u C-c C-c`, 自动计算所有left值
 - `C-c |`: 通过输入行x列的方式插入表格
-- tab: 下一格
-- enter: 下一行
+- `tab` 下一格
+- `enter` 下一行
 - `M-up/right/left/right` 上下左右移动行（列）
 
-
+  
 ** Tag
 
 - `C-c C-q` 为标题添加标签
 
 *** title						    :work:learn:life:
-
 **** sub								:fun:
 
 ** Markup for rich export
 
 *** Code
 
-1. <s 再按TAB键 ，就会自动展开为 #+BEGIN_SRC ... #+END_SRC
-2. 将光标移到代码块内，按C-c C-c，org-mode会自动生成结果
+1. 输入 `<s` 再按 `tab` 键 ，就会自动展开为 `#+BEGIN_SRC ... #+END_SRC`
+2. 将光标移到代码块内，输入 `C-c C-c`，org-mode会自动生成结果
 
 
-#+BEGIN_SRC python :results output
+#+BEGIN_SRC python :results output code
 a = 1 + 1
 print a
 #+END_SRC
 
-#+RESULTS:
-: 2
+#+BEGIN_SRC python
+2
+#+END_SRC
 
 
