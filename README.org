@@ -1,0 +1,15 @@
+#+TITLE: My Notebook of Little Things
+#+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
+
+Records questions & answers, skills & tips in my daily work.
+
+* Programming Part
+
+** R
+
+*** [[file:Notebooks/RNotebook/ggplot.md][ggplot]]
+
+** Emacs
+
+*** [[file:Notebooks/emacsNotebook/org-basic.md][Org mode basic]]
