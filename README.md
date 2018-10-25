@@ -1,16 +1,16 @@
+# My Notebook of Little Things
+
 Records questions & answers, skills & tips in my daily work.
 
 
-# Programming Part
+## Programming Part
 
 
-## R
+### R
+
+-   [ggplot](Notebooks/RNotebook/ggplot.md)
 
 
-### [ggplot](Notebooks/RNotebook/ggplot.md)
+### Emacs
 
-
-## Emacs
-
-
-### [Org mode basic](Notebooks/emacsNotebook/org-basic.md)
+-   [Org mode basic](Notebooks/emacsNotebook/org-basic.md)

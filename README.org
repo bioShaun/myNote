@@ -2,14 +2,16 @@
 #+OPTIONS: ^:nil
 #+OPTIONS: toc:nil
 
+* My Notebook of Little Things
+
 Records questions & answers, skills & tips in my daily work.
 
-* Programming Part
+** Programming Part
 
-** R
+*** R
 
-*** [[file:Notebooks/RNotebook/ggplot.md][ggplot]]
+- [[file:Notebooks/RNotebook/ggplot.md][ggplot]]
 
-** Emacs
+*** Emacs
 
-*** [[file:Notebooks/emacsNotebook/org-basic.md][Org mode basic]]
+- [[file:Notebooks/emacsNotebook/org-basic.md][Org mode basic]]
