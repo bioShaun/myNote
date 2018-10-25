@@ -1,0 +1,32 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "show/ggplot-",
+  warning = FALSE
+)
+```
+
+# ggplot2: skills & tips
+
+## geom_boxplot
+
+### add median value to plot
+
+```{r boxplot-median, message=F, warning=F}
+library(ggplot2)
+p <- ggplot(mtcars, aes(x=factor(cyl), y=mpg, fill=factor(cyl))) + 
+  geom_boxplot(width=0.6) + theme_bw()
+# use stat_summary to add median value annotation
+p + stat_summary(geom="text", fun.y=quantile,
+               aes(label=sprintf("%1.1f", ..y..), color=factor(cyl)),
+               position=position_nudge(x=0.4), size=3.5)
+```
