@@ -35,7 +35,7 @@
 
 ### Code
 
-1.  输入 `<s` 再按 `tab` 键 ，就会自动展开为 ~#+BEGIN\_SRC &#x2026; #+END\_SRC~。
+1.  输入 `<s` 再按 `tab` 键 ，就会自动展开为 `#+BEGIN_SRC ... #+END_SRC` 。
 2.  将光标移到代码块内，输入 `C-c C-c` ，org-mode会自动生成结果。
 
 ```python
