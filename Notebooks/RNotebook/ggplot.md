@@ -1,4 +1,5 @@
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- *.md is generated from *.Rmd. Please edit that file -->
+
 
 ggplot2: skills & tips
 ======================
@@ -19,3 +20,5 @@ p + stat_summary(geom="text", fun.y=quantile,
 ```
 
 ![](show/ggplot-boxplot-median-1.png)
+
+\[[返回首页](../../README.md)\]
