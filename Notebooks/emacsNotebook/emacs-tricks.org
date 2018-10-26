@@ -5,7 +5,7 @@
 
 *** emacs下，如何快速输入当前日期？
 
-~C-u M-! date ~
+~C-u M-! date~
 
 from [[https://www.douban.com/group/topic/27572776/]]
 
