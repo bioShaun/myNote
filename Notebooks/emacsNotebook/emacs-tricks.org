@@ -1,0 +1,13 @@
+#+TITLE: Emacs Tricks
+#+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
+
+
+*** emacs下，如何快速输入当前日期？
+
+~C-u M-! date ~
+
+from [[https://www.douban.com/group/topic/27572776/]]
+
+
+[[[file:../../README.md][返回首页]]]
