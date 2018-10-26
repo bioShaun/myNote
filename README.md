@@ -10,6 +10,7 @@ Records questions & answers, skills & tips in my daily work.
 ### R
 
 -   [ggplot](Notebooks/RNotebook/ggplot.md)
+-   [visualization](Notebooks/RNotebook/visualization.md)
 
 
 ### Emacs
