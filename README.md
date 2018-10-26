@@ -1,5 +1,6 @@
 # My Notebook of Little Things
 
+
 Records questions & answers, skills & tips in my daily work.
 
 
@@ -13,4 +14,4 @@ Records questions & answers, skills & tips in my daily work.
 
 ### Emacs
 
--   [Org mode basic](Notebooks/emacsNotebook/org-basic.md)
+-   [Org mode basic](Notebooks/emacsNotebook/org-basic.org)

@@ -2,8 +2,6 @@
 #+OPTIONS: ^:nil
 #+OPTIONS: toc:nil
 
-* Org-mode Basic
-
 ** Table
 
 1. 输入表头 "|Name|Phone|money|usage|left|"。
