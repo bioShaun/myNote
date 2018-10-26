@@ -1,7 +1,7 @@
 # My Notebook of Little Things
 
 
-Records questions & answers, skills & tips in my daily work.
+Recording questions & answers, skills & tips in my daily work.
 
 
 ## Programming Part
