@@ -15,5 +15,10 @@ Recording questions & answers, skills & tips in my daily work.
 
 ### Emacs
 
--   [Org mode basic](Notebooks/emacsNotebook/org-basic.org)
--   [Emacs tricks](Notebooks/emacsNotebook/emacs-tricks.org)
+-   [org mode basic](Notebooks/emacsNotebook/org-basic.org)
+-   [emacs tricks](Notebooks/emacsNotebook/emacs-tricks.org)
+
+
+### Python
+
+-   [python tricks](Notebooks/python/python-tricks.org)

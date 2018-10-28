@@ -1,0 +1,22 @@
+#+TITLE: Python Skills and Tricks
+#+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
+
+
+
+** Package building
+
+*** Access Data in Package Subdirectory
+
+#+BEGIN_SRC python
+
+import pkg_resources
+
+DATA_PATH = pkg_resources.resource_filename('<package name>', 'data')
+DB_FILE = pkg_resources.resource_filename('<package name>', 'data/sqlite.db')
+
+#+END_SRC
+
+from [[https://stackoverflow.com/questions/5897666/how-do-i-use-data-in-package-data-from-source-code]]
+
+[[[file:../../README.md][返回首页]]]
