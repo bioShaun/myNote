@@ -1,0 +1,36 @@
+#+TITLE: Emacs Tricks
+#+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
+
+
+** <2018-10-28 Sun>						     :poetry:
+
+- from [[https://yihui.name/]]
+
+#+BEGIN_EXAMPLE
+
+深情似海，问相逢初度，是何年纪？依约而今还记取，不是前生夙世。放学花前，题诗石上，春水园亭里。逢君一笑，人间无此欢喜。
+无奈苍狗看云，红羊数劫，惘惘休提起。客气渐多真气少，汩没心灵何已。千古声名，百年担负，事事违初意。心头阁住，儿时那种情味。
+-- 龚自珍 《百字令·投袁大琴南》
+
+#+END_EXAMPLE
+
+
+- from [[https://github.com/ruanyf/weekly/blob/master/docs/issue-28.md]]
+
+#+BEGIN_EXAMPLE
+
+先工具，后网络。（Come for the tool，stay for the network.）
+-- 创业家@cdixon提出，个人或小型创业公司的产品，起先应该是工具，有了足够的用户以后再向网络方向发展。
+
+#+END_EXAMPLE
+  
+#+BEGIN_EXAMPLE
+
+在软件开发中，技术变化如此之快，你花费了大量时间学习技术和工具，一旦这些技术被取代，你的知识将变得毫无价值，因为它们大部分都是实施的细节。
+
+作者思考见 from
+
+#+END_EXAMPLE
+
+[[[file:../../README.md][返回首页]]]

@@ -22,3 +22,8 @@ Recording questions & answers, skills & tips in my daily work.
 ### Python
 
 -   [python tricks](notebooks/python/python-tricks.org)
+
+
+### Words
+
+-   [2018 winter](notebooks/words/2018-winter.org)
