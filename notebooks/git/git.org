@@ -29,7 +29,7 @@ git flow init [-d]
 
 *** Creating feature/release/hotfix/support branches
 
-- To list/start/finish feature branches, use:
+To list/start/finish feature branches, use:
 
 #+BEGIN_SRC bash
 git flow feature
@@ -37,7 +37,7 @@ git flow feature start <name> [<base>]
 git flow feature finish <name>
 #+END_SRC
 
-- To push/pull a feature branch to the remote repository, use:
+To push/pull a feature branch to the remote repository, use:
 #+BEGIN_SRC bash
 git flow feature publish <name>
 git flow feature pull <remote> <name>
@@ -52,7 +52,7 @@ git flow feature pull <remote> <name>
 - Feature branch 'feature/authentication' has been removed
 - You are now on branch 'develop'
 
-- To list/start/finish release branches, use:
+To list/start/finish release branches, use:
 
 #+BEGIN_SRC bash
 git flow release
