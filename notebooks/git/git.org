@@ -1,0 +1,64 @@
+#+TITLE: Git Tricks
+#+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
+
+
+** Using git-flow to automate your git branching workflow
+
+from [[https://jeffkreeftmeijer.com/git-flow/]] and [[https://github.com/nvie/gitflow/]]
+
+*** install
+
+#+BEGIN_SRC bash
+
+# on centos
+curl -OL https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh
+chmod +x gitflow-installer.sh
+INSTALL_PREFIX=/path/to/install/git-flow ./gitflow-installer.sh
+
+# add /path/to/install/git-flow to PATH
+
+#+END_SRC
+
+*** init
+
+To initialize a new repo with the basic branch structure, use:
+#+BEGIN_SRC bash
+git flow init [-d]
+#+END_SRC
+
+*** Creating feature/release/hotfix/support branches
+
+To list/start/finish feature branches, use:
+
+#+BEGIN_SRC bash
+git flow feature
+git flow feature start <name> [<base>]
+git flow feature finish <name>
+#+END_SRC
+
+To push/pull a feature branch to the remote repository, use:
+#+BEGIN_SRC bash
+git flow feature publish <name>
+git flow feature pull <remote> <name>
+#+END_SRC
+
+**** Summary of git flow feature start:
+- A new branch 'feature/<name>' was created, based on 'develop'
+- You are now on branch 'feature/authentication'
+
+**** Summary of git flow feature finish:
+- The feature branch 'feature/<name>' was merged into 'develop'
+- Feature branch 'feature/authentication' has been removed
+- You are now on branch 'develop'
+
+To list/start/finish release branches, use:
+
+#+BEGIN_SRC bash
+git flow release
+git flow release start <release> [<base>]
+git flow release finish <release>
+#+END_SRC
+
+
+[[[file:../../README.md][返回首页]]]
