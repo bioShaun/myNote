@@ -24,6 +24,11 @@ Recording questions & answers, skills & tips in my daily work.
 -   [python tricks](notebooks/python/python-tricks.org)
 
 
+### Git
+
+-   [git tricks](notebooks/git/git.org)
+
+
 ### Words
 
 -   [2018 winter](notebooks/words/2018-winter.org)
