@@ -1,0 +1,25 @@
+#+TITLE: Pandas Skills and Tricks
+#+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
+
+
+** remove duplicates from correlation in pandas
+
+from [[https://stackoverflow.com/questions/48395350/how-to-remove-duplicates-from-correlation-in-pandas]]
+
+#+BEGIN_SRC python
+import numpy as np
+import pandas as pd
+data = pd.DataFrame(np.random.randn(10, 4), columns=list('ABCD'))
+
+dataCorr = data.corr(method='pearson')
+dataCorr = dataCorr[abs(dataCorr) >= 0.01].stack().reset_index()
+dataCorr = dataCorr[dataCorr['level_0'].astype(str)!=dataCorr['level_1'].astype(str)]
+
+# filtering out lower/upper triangular duplicates
+dataCorr['ordered-cols'] = dataCorr.apply(lambda x: '-'.join(sorted([x['level_0'],x['level_1']])),axis=1)
+dataCorr = dataCorr.drop_duplicates(['ordered-cols'])
+dataCorr.drop(['ordered-cols'], axis=1, inplace=True)
+#+END_SRC
+
+[[[file:../../README.md][返回首页]]]

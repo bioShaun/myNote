@@ -22,6 +22,7 @@ Recording questions & answers, skills & tips in my daily work.
 ### Python
 
 -   [python tricks](notebooks/python/python-tricks.org)
+-   [pandas tricks](notebooks/python/pandas-tricks.org)
 
 
 ### Git
