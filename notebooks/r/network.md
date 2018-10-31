@@ -7,7 +7,7 @@ Network visualization with R
 igraph
 ------
 
-from [](http://kateto.net/network-visualization)
+from [Network visualization with R (PolNet 2018 Workshop)](http://kateto.net/network-visualization)
 
 ### step1 read data
 
