@@ -2,11 +2,38 @@
 #+OPTIONS: ^:nil
 #+OPTIONS: toc:nil
 
+** Python module
 
+*** Check if a program exists from a python script
 
-** Package building
+from [[https://stackoverflow.com/questions/11210104/check-if-a-program-exists-from-a-python-script]]
+
+- shutil.which
+#+BEGIN_SRC python
+def is_tool(name):
+    """Check whether `name` is on PATH and marked as executable."""
+
+    # from whichcraft import which in python2.x
+    from shutil import which
+
+    return which(name) is not None
+#+END_SRC
+
+- distutils.spawn.find_executable
+#+BEGIN_SRC python
+def is_tool(name):
+    """Check whether `name` is on PATH."""
+
+    from distutils.spawn import find_executable
+
+    return find_executable(name) is not None
+#+END_SRC
+
+** Python Package 
 
 *** Access Data in Package Subdirectory
+
+from [[https://stackoverflow.com/questions/5897666/how-do-i-use-data-in-package-data-from-source-code]]
 
 #+BEGIN_SRC python
 
@@ -17,6 +44,5 @@ DB_FILE = pkg_resources.resource_filename('<package name>', 'data/sqlite.db')
 
 #+END_SRC
 
-from [[https://stackoverflow.com/questions/5897666/how-do-i-use-data-in-package-data-from-source-code]]
 
 [[[file:../../README.md][返回首页]]]
