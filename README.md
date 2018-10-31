@@ -11,6 +11,7 @@ Recording questions & answers, skills & tips in my daily work.
 
 -   [ggplot](notebooks/r/ggplot.md)
 -   [visualization](notebooks/r/visualization.md)
+-   [network](notebooks/r/network.md)
 
 
 ### Emacs
