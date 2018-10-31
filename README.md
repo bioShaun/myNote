@@ -29,6 +29,8 @@ Recording questions & answers, skills & tips in my daily work.
 -   [git tricks](notebooks/git/git.org)
 
 
+## Life
+
 ### Words
 
 -   [2018 winter](notebooks/words/2018-winter.org)
