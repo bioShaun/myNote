@@ -71,7 +71,7 @@ V(net)       # The vertices of the "net" object
 
 Add attributes to the igraph object.
 
-```{r network-param, message=F, warning=F, fig.width = 6, fig.height = 5}
+```{r network-param, message=F, warning=F, fig.width = 3, fig.height = 3}
 
 # basic plot
 plot(net)
@@ -125,7 +125,7 @@ plot(f_net)
 
 #### Network layouts
 
-```{r network-layout, message=F, warning=F, fig.width = 6, fig.height = 5}
+```{r network-layout, message=F, warning=F, fig.width = 3, fig.height = 3}
 # example data
 net.bg <- sample_pa(100) 
 V(net.bg)$size <- 8
@@ -178,7 +178,7 @@ plot(net, vertex.color=colrs[V(net)$community])
 #### Highlighting specific nodes or links
 
 - Highlight nodes by the distance to specific nodes
-```{r network-highlight-nodes, message=F, warning=F, fig.width = 6, fig.height = 5}
+```{r network-highlight-nodes, message=F, warning=F, fig.width = 3, fig.height = 3}
 library(RColorBrewer)
 
 dist.from.NYT <- distances(net, v=V(net)[media=="NY Times"], 
@@ -197,7 +197,7 @@ plot(net, vertex.color=col, vertex.label=dist.from.NYT, edge.arrow.size=.6,
 - Highlight path
 
 
-```{r network-highlight-path, message=F, warning=F, fig.width = 6, fig.height = 5}
+```{r network-highlight-path, message=F, warning=F, fig.width = 3, fig.height = 3}
 
 news.path <- shortest_paths(net, 
                             from = V(net)[media=="MSNBC"], 
@@ -221,7 +221,7 @@ plot(net, vertex.color=vcol, edge.color=ecol,
 
 - Highlight the edges going into or out of a vertex
 
-```{r network-highlight-edges, message=F, warning=F, fig.width = 6, fig.height = 5}
+```{r network-highlight-edges, message=F, warning=F, fig.width = 3, fig.height = 3}
 
 inc.edges <- incident(net,  V(net)[media=="Wall Street Journal"], mode="all")
 
@@ -239,7 +239,7 @@ plot(net, vertex.color=vcol, edge.color=ecol, edge.width=2)
 
 To find the neighbors for multiple nodes, use `adjacent_vertices()` instead of `neighbors()`. To find node neighborhoods going more than one step out, use function `ego()` with parameter `order` set to the number of steps out to go from the focal node(s).
 
-```{r network-highlight-neighbor, message=F, warning=F, fig.width = 6, fig.height = 5}
+```{r network-highlight-neighbor, message=F, warning=F, fig.width = 3, fig.height = 3}
 neigh.nodes <- neighbors(net, V(net)[media=="Wall Street Journal"], mode="out")
 
 # Set colors to plot the neighbors:

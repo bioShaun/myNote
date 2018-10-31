@@ -1,6 +1,5 @@
 <!-- *.md is generated from *.Rmd. Please edit that file -->
 
-
 Network visualization with R
 ============================
 
