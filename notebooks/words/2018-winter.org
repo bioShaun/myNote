@@ -34,8 +34,12 @@
 作者思考见 from
 #+END_EXAMPLE
 
-[[[file:../../README.md][返回首页]]]
 
 ** <2018-11-27 Tue>                                           :comics:snoopy:
 
 [[file:./data/Peanuts1979027.gif]]
+
+
+*** to be continued
+
+[[[file:../../README.md][返回首页]]]
