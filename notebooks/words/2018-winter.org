@@ -35,3 +35,7 @@
 #+END_EXAMPLE
 
 [[[file:../../README.md][返回首页]]]
+
+** <2018-11-27 Tue>                                           :comics:snoopy:
+
+![](./data/Peanuts1979027.gif)
