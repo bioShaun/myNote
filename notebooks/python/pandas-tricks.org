@@ -22,4 +22,14 @@ dataCorr = dataCorr.drop_duplicates(['ordered-cols'])
 dataCorr.drop(['ordered-cols'], axis=1, inplace=True)
 #+END_SRC
 
+
+** read table value as string
+
+from [[https://stackoverflow.com/questions/16988526/pandas-reading-csv-as-string-type]]
+
+#+BEGIN_SRC python
+pd.read_table(table_file, dtype=np.str)
+#+END_SRC
+
+
 [[[file:../../README.md][返回首页]]]
