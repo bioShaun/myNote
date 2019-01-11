@@ -28,9 +28,25 @@ def is_tool(name):
 
     return find_executable(name) is not None
 #+END_SRC
+*** Write strings to gzip file
+
+from [[https://stackoverflow.com/questions/49286135/write-strings-to-gzip-file]]
+
+
+#+BEGIN_SRC python
+
+# opt1: encode string
+with gzip.open('file.gz', 'wb') as f:
+    f.write('Hello world!'.encode())
+
+# opt2: write strings to your file when you open it in the wt mode
+with gzip.open('file.gz', 'wt') as f:
+    f.write('Hello world!')
+
+#+END_SRC
 
 ** Python Package 
-
+   
 *** Access Data in Package Subdirectory
 
 from [[https://stackoverflow.com/questions/5897666/how-do-i-use-data-in-package-data-from-source-code]]
