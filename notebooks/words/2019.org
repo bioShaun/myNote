@@ -1,0 +1,17 @@
+#+TITLE: Words of 2019
+#+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
+
+
+** <2019-04-02 Tue>
+
+#+BEGIN_EXAMPLE
+世上只有一种英雄主义，就是在认清生活真相之后依然热爱生活。-- 罗曼·罗兰
+#+END_EXAMPLE
+
+
+
+
+** to be continued
+
+   [[[file:../../README.md][返回首页]]]
