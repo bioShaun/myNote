@@ -36,3 +36,4 @@ Recording questions & answers, skills & tips in my daily work.
 ### Words
 
 -   [2018 winter](notebooks/words/2018-winter.org)
+-   [2019](notebooks/words/2019.org)
