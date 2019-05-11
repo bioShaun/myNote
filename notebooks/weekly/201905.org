@@ -1,0 +1,26 @@
+#+TITLE: 2019-05
+#+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
+
+** <2019-05-11 Sat>
+
+*** use tidyr to clean data
+
+https://r4ds.had.co.nz/tidy-data.html
+
+*** fastq-dump -> fasterq-dump
+
+https://github.com/ncbi/sra-tools/wiki/HowTo:-fasterq-dump
+
+*** xargs -P to accelerate
+
+https://stackoverflow.com/questions/28357997/running-programs-in-parallel-using-xargs
+
+*** preseq for library complexity
+
+http://smithlabresearch.org/software/preseq/
+
+
+** to be continued
+
+   [[[file:../../README.md][返回首页]]]
