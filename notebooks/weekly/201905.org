@@ -1,4 +1,4 @@
-#+TITLE: 2019-05
+#+TITLE: 2019
 #+OPTIONS: ^:nil
 #+OPTIONS: toc:nil
 
@@ -18,7 +18,13 @@ https://stackoverflow.com/questions/28357997/running-programs-in-parallel-using-
 
 *** preseq for library complexity
 
-http://smithlabresearch.org/software/preseq/
+    http://smithlabresearch.org/software/preseq/
+
+** <2019-09-25 Wed>
+
+*** R语言地图展示
+
+https://www.jianshu.com/p/27052cb6807a
 
 
 ** to be continued

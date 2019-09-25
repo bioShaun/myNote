@@ -31,9 +31,9 @@ Recording questions & answers, skills & tips in my daily work.
 -   [git tricks](notebooks/git/git.org)
 
 
-### Weekly
+### others
 
-- [2019-05](notebooks/weekly/201905.org)
+- [2019](notebooks/weekly/201905.org)
 
 ## Life
 
