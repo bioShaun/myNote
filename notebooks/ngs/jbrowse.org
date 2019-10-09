@@ -1,0 +1,11 @@
+#+TITLE: Jbrowse
+#+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
+
+
+** Track Metadata
+
+-url - a URL (*relative to JBrowse root directory*, or absolute URL) 
+
+
+[[[file:../../README.md][返回首页]]]

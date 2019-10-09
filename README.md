@@ -30,6 +30,12 @@ Recording questions & answers, skills & tips in my daily work.
 
 -   [git tricks](notebooks/git/git.org)
 
+### NGS
+
+#### Jbrowse
+
+-   [Jbrowse](notebooks/ngs/jbrowse.org)
+
 
 ### others
 
